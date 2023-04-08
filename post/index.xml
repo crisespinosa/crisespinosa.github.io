@@ -5,12 +5,36 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Mar 2023 18:59:52 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Apr 2023 22:58:17 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://example.com/post/</link>
     </image>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Sat, 08 Apr 2023 22:58:17 +0300</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;p&gt;Что такое Markdown?
+Markdown — облегчённый язык разметки, созданный с целью обозначения форматирования в простом тексте, с максимальным сохранением его читаемости человеком, и пригодный для машинного преобразования в языки для продвинутых публикаций.&lt;/p&gt;
+&lt;p&gt;Причины использовать Markdown&lt;/p&gt;
+&lt;p&gt;Он позволяет создавать тексты без использования Word и других редакторов. Разметку можно прочитать и воспроизвести в любой системе или браузере.&lt;/p&gt;
+&lt;p&gt;Синтаксис Markdown&lt;/p&gt;
+&lt;p&gt;Основной синтаксис.
+Он очень простой: текст «оборачивается» в символы или они ставятся перед строкой. Вот так, например, будут выглядеть заголовки. И так далее, вплоть до заголовков шестого уровня с шестью решетками перед строкой&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Неделя2</title>
+      <link>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F2/</link>
+      <pubDate>Sat, 08 Apr 2023 22:57:27 +0300</pubDate>
+      <guid>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F2/</guid>
+      <description>&lt;p&gt;На прошлой неделе у меня было два рабочих контрольных по геометрии и логической математике. Затем я сделал лабораторию 8 и 9 архитектуры. Я также подготовился к викторинам на следующей неделе по программированию и аналитической математике.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Git</title>
@@ -228,7 +252,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-257391468&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-976418253&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -238,7 +262,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-257391468&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-976418253&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
