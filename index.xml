@@ -33,6 +33,30 @@
     </item>
     
     <item>
+      <title>Языки</title>
+      <link>https://example.com/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</link>
+      <pubDate>Sat, 13 May 2023 21:48:01 +0300</pubDate>
+      <guid>https://example.com/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</guid>
+      <description>&lt;p&gt;#SageMath
+— система компьютерной алгебры покрывающая много областей математики, включая алгебру, комбинаторику, вычислительную математику и матанализ. Первая версия SageMath была выпущена 24 февраля 2005 года в виде свободного программного обеспечения с лицензией GNU GPL. Первоначальной целью проекта было &amp;ldquo;создание открытого программного обеспечения альтернативного системам Magma, Maple, Mathematica, и MATLAB&amp;rdquo;.
+Основы алгебры и исчисления&lt;/p&gt;
+&lt;p&gt;Sage может выполнять вычисления, связанные с базовой алгеброй и исчислением: например, нахождение решений уравнений, дифференцирование, интегрирование и преобразования Лапласа. Дополнительные примеры см. в документации «Конструкции в Sage».
+Решение уравнений
+Точное решение уравнений&lt;/p&gt;
+&lt;p&gt;Функция решения решает уравнения. Чтобы использовать его, сначала не забудьте указать некоторые переменные. Аргументы для решения представляют собой уравнение (или систему уравнений) вместе с переменными.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week4</title>
+      <link>https://example.com/post/week4/</link>
+      <pubDate>Sat, 13 May 2023 21:46:22 +0300</pubDate>
+      <guid>https://example.com/post/week4/</guid>
+      <description>&lt;p&gt;На прошлой неделе у меня была контрольная работа по аналитической математике, к которой я готовилась вместе со своими одноклассниками. И мне пришлось написать программу для матриц и векторов на c++. На выходных мне пришлось позаботиться о друге, которому сделали стоматологическую операцию.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://example.com/post/markdown/</link>
       <pubDate>Sat, 08 Apr 2023 22:58:17 +0300</pubDate>
@@ -272,7 +296,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-976418253&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-749125386&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -282,7 +306,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-976418253&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-749125386&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -765,11 +789,10 @@ $$&lt;/p&gt;
       <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;p&gt;#Введение
+Python  — высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью[25][26], ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ[27]. Язык является полностью объектно-ориентированным в том плане, что всё является объектами[25]. Необычной особенностью языка является выделение блоков кода пробельными отступами[28]. Синтаксис ядра языка минималистичен, за счёт чего на практике редко возникает необходимость обращаться к документации[27]. Сам же язык известен как интерпретируемый и используется в том числе для написания скриптов[25]. Недостатками языка являются зачастую более низкая скорость работы и более высокое потребление памяти написанных на нём программ по сравнению с аналогичным кодом, написанным на компилируемых языках, таких как C или C++[25][27].&lt;/p&gt;
+&lt;p&gt;#Структура
+Python является мультипарадигменным языком программирования, поддерживающим императивное, процедурное, структурное, объектно-ориентированное программирование[25], метапрограммирование[29] и функциональное программирование[25]. Задачи обобщённого программирования решаются за счёт динамической типизации[30][31]. Аспектно-ориентированное программирование частично поддерживается через декораторы[32], более полноценная поддержка обеспечивается дополнительными фреймворками[33]. Такие методики как контрактное и логическое программирование можно реализовать с помощью библиотек или расширений[34]. Основные архитектурные черты — динамическая типизация, автоматическое управление памятью[25], полная интроспекция, механизм обработки исключений, поддержка многопоточных вычислений с глобальной блокировкой интерпретатора (GIL)[35], высокоуровневые структуры данных. Поддерживается разбиение программ на модули, которые, в свою очередь, могут объединяться в пакеты.&lt;/p&gt;
 </description>
     </item>
     
