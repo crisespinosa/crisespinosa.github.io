@@ -34,16 +34,16 @@
     
     <item>
       <title>Языки</title>
-      <link>https://example.com/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</link>
+      <link>https://example.com/post/language/</link>
       <pubDate>Sat, 13 May 2023 21:48:01 +0300</pubDate>
-      <guid>https://example.com/post/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</guid>
+      <guid>https://example.com/post/language/</guid>
       <description>&lt;p&gt;#SageMath
-— система компьютерной алгебры покрывающая много областей математики, включая алгебру, комбинаторику, вычислительную математику и матанализ. Первая версия SageMath была выпущена 24 февраля 2005 года в виде свободного программного обеспечения с лицензией GNU GPL. Первоначальной целью проекта было &amp;ldquo;создание открытого программного обеспечения альтернативного системам Magma, Maple, Mathematica, и MATLAB&amp;rdquo;.
-Основы алгебры и исчисления&lt;/p&gt;
-&lt;p&gt;Sage может выполнять вычисления, связанные с базовой алгеброй и исчислением: например, нахождение решений уравнений, дифференцирование, интегрирование и преобразования Лапласа. Дополнительные примеры см. в документации «Конструкции в Sage».
-Решение уравнений
-Точное решение уравнений&lt;/p&gt;
-&lt;p&gt;Функция решения решает уравнения. Чтобы использовать его, сначала не забудьте указать некоторые переменные. Аргументы для решения представляют собой уравнение (или систему уравнений) вместе с переменными.&lt;/p&gt;
+— a computer algebra system covering many areas of mathematics, including algebra, combinatorics, computational mathematics and matanalysis. The first version of SageMath was released on February 24, 2005 as free software under the GNU GPL license. The initial goal of the project was &amp;ldquo;to create open source software alternative to Magma, Maple, Mathematica, and MATLAB systems&amp;rdquo;.
+Fundamentals of Algebra and Calculus&lt;/p&gt;
+&lt;p&gt;Sage can perform calculations related to basic algebra and calculus: for example, finding solutions to equations, differentiation, integration, and Laplace transformations. For more examples, see the documentation &amp;ldquo;Constructions in Sage&amp;rdquo;.
+Solving equations
+Exact solution of equations&lt;/p&gt;
+&lt;p&gt;The solution function solves the equations. To use it, don&amp;rsquo;t forget to specify some variables first. The arguments for the solution are an equation (or a system of equations) together with variables.&lt;/p&gt;
 </description>
     </item>
     
@@ -61,22 +61,13 @@
       <link>https://example.com/post/markdown/</link>
       <pubDate>Sat, 08 Apr 2023 22:58:17 +0300</pubDate>
       <guid>https://example.com/post/markdown/</guid>
-      <description>&lt;p&gt;Что такое Markdown?
-Markdown — облегчённый язык разметки, созданный с целью обозначения форматирования в простом тексте, с максимальным сохранением его читаемости человеком, и пригодный для машинного преобразования в языки для продвинутых публикаций.&lt;/p&gt;
-&lt;p&gt;Причины использовать Markdown&lt;/p&gt;
-&lt;p&gt;Он позволяет создавать тексты без использования Word и других редакторов. Разметку можно прочитать и воспроизвести в любой системе или браузере.&lt;/p&gt;
-&lt;p&gt;Синтаксис Markdown&lt;/p&gt;
-&lt;p&gt;Основной синтаксис.
-Он очень простой: текст «оборачивается» в символы или они ставятся перед строкой. Вот так, например, будут выглядеть заголовки. И так далее, вплоть до заголовков шестого уровня с шестью решетками перед строкой&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Неделя2</title>
-      <link>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F2/</link>
-      <pubDate>Sat, 08 Apr 2023 22:57:27 +0300</pubDate>
-      <guid>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F2/</guid>
-      <description>&lt;p&gt;На прошлой неделе у меня было два рабочих контрольных по геометрии и логической математике. Затем я сделал лабораторию 8 и 9 архитектуры. Я также подготовился к викторинам на следующей неделе по программированию и аналитической математике.&lt;/p&gt;
+      <description>&lt;p&gt;What is Markdown?
+Markdown is a lightweight markup language designed to indicate formatting in plain text, with maximum preservation of its human readability, and suitable for machine conversion into languages for advanced publications.&lt;/p&gt;
+&lt;p&gt;Reasons to use Markdown&lt;/p&gt;
+&lt;p&gt;It allows you to create texts without using Word and other editors. The markup can be read and reproduced in any system or browser.&lt;/p&gt;
+&lt;p&gt;Markdown syntax&lt;/p&gt;
+&lt;p&gt;Basic syntax.
+It is very simple: the text is &amp;ldquo;wrapped&amp;rdquo; in characters or they are placed before the line. This is how, for example, the headlines will look like. And so on, up to the sixth-level headings with six grids in front of the line&lt;/p&gt;
 </description>
     </item>
     
@@ -85,30 +76,39 @@ Markdown — облегчённый язык разметки, созданны�
       <link>https://example.com/post/git/</link>
       <pubDate>Sat, 18 Mar 2023 18:59:52 +0300</pubDate>
       <guid>https://example.com/post/git/</guid>
-      <description>&lt;p&gt;Управление версиями&lt;/p&gt;
+      <description>&lt;p&gt;Version Control&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Что такое Управление версиями?
-Системы управления версиями — это программное обеспечение, помогающее отслеживать изменения, внесенные в код с течением времени. Когда разработчик редактирует код, система управления версиями создает моментальный снимок файлов. Затем этот моментальный снимок сохраняется, чтобы при необходимости им было можно воспользоваться позже.&lt;/p&gt;
+&lt;p&gt;What is Version Control?
+Version control systems are software that helps track changes made to code over time. When a developer edits the code, the version control system creates a snapshot of the files. This snapshot is then saved so that it can be used later if necessary.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Для чего используется управление версиями?
-Система управления версиями (VCS), также известная как система управления исходным кодом, — это программное обеспечение для отслеживания изменений в файловой системе и управления ими.&lt;/p&gt;
+&lt;p&gt;What is version control used for?
+A Version Control System (VCS), also known as a source code management system, is software for tracking and managing changes to a file system.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Что такое GIT, и как он работает?
-Git — это набор консольных утилит, которые отслеживают и фиксируют изменения в файлах (чаще всего речь идет об исходном коде программ, но вы можете использовать его для любых файлов на ваш вкус). Изначально Git был создан Линусом Торвальдсом при разработке ядра Linux.&lt;/p&gt;
+&lt;p&gt;What is GIT, and how does it work?
+Git is a set of console utilities that track and fix changes in files (most often we are talking about the source code of programs, but you can use it for any files you like). Git was originally created by Linus Torvalds when developing the Linux kernel.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Неделя1</title>
-      <link>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F1/</link>
+      <title>Week5</title>
+      <link>https://example.com/post/week5/</link>
       <pubDate>Sat, 18 Mar 2023 18:49:49 +0300</pubDate>
-      <guid>https://example.com/post/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F1/</guid>
-      <description>&lt;p&gt;Прошлая неделя была очень продуктивной, я сделал лабораторную работу по ознакомлению с файловой системой Linux и использованием команд. Мне также пришлось готовиться к контрольной работе по геометрии, которая скоро появится.&lt;/p&gt;
+      <guid>https://example.com/post/week5/</guid>
+      <description>&lt;p&gt;Семестр скоро закончится, и на этой неделе у меня было две контрольные работы по логической математике и аналитической геометрии. Теперь я должен подготовиться к следующей неделе, когда у меня будет еще один тест по аналитической геометрии, и подготовиться к летним экзаменам.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Неделя1</title>
+      <link>https://example.com/post/week1/</link>
+      <pubDate>Sat, 18 Mar 2023 18:49:49 +0300</pubDate>
+      <guid>https://example.com/post/week1/</guid>
+      <description>&lt;p&gt;Last week was very productive, I did a laboratory work on familiarizing myself with the Linux file system and using commands. I also had to prepare for a geometry test, which will appear soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -296,7 +296,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-749125386&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-735218694&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -306,7 +306,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-749125386&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-735218694&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
